@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>src\Renderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>src\Renderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>src\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>src\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Translation.cpp">
+      <Filter>src\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRotation.cpp">
+      <Filter>src\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>src\Renderer\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>src\Renderer\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkybox.cpp">
+      <Filter>src\Renderer\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableObject.cpp">
+      <Filter>src\Renderer\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>src\Renderer\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>src\Renderer\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComposite.cpp">
+      <Filter>src\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>src\Renderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>src\Renderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\bushes.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\gift.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\sphere.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\suzi_smooth.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\suzi_flat.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\tree.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\plain.h">
+      <Filter>assets\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRotation.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>src\Renderer\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkybox.h">
+      <Filter>src\Renderer\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObject.h">
+      <Filter>src\Renderer\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>src\Renderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>src\Renderer\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>src\Renderer\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComposite.h">
+      <Filter>src\Transform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\blin_phong_fragment.glsl">
+      <Filter>assets\Shaders</Filter>
+    </None>
+    <None Include="Shaders\constant_fragment.glsl">
+      <Filter>assets\Shaders</Filter>
+    </None>
+    <None Include="Shaders\lambert_fragment.glsl">
+      <Filter>assets\Shaders</Filter>
+    </None>
+    <None Include="Shaders\phong_fragment.glsl">
+      <Filter>assets\Shaders</Filter>
+    </None>
+    <None Include="Shaders\vertex.glsl">
+      <Filter>assets\Shaders</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d7a7d7a8-6efb-489a-846c-22ff13584bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{30d71d47-db55-45e5-87b3-5df5dd7b209f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Application">
+      <UniqueIdentifier>{30535728-14ff-4509-a241-77ccc80b57fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer">
+      <UniqueIdentifier>{01774165-50d0-4c63-82f3-20bbd72c5b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{252e3ef0-ba87-4441-9c87-a264037ac8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{a826c76a-69bf-4ced-91f7-805f9b850914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Lights">
+      <UniqueIdentifier>{2a98c935-5f5f-49f7-8a3b-4a5f5bbe4fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{a503ffe0-11d0-4aa1-a30f-c3c8daf165c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\Models">
+      <UniqueIdentifier>{2e54316d-a88c-4b09-a8b6-71bd453c4bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\Textures">
+      <UniqueIdentifier>{faea4fcd-da69-4601-b560-b114ee4f37dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\Shaders">
+      <UniqueIdentifier>{7eea8e68-5bda-4977-bbed-b27d28a1c83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{233f9f2e-868a-42d1-8146-6b2b7af93033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{d9cd5413-138e-4d7e-8e97-cc4dcf8d0459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Transform">
+      <UniqueIdentifier>{48e79c2f-4a57-4c25-b3ae-1dd38da10c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Models">
+      <UniqueIdentifier>{fb6fd5bf-72d5-43d2-80a7-b786a3a29bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Shaders">
+      <UniqueIdentifier>{bd8fd34c-b056-42f3-9813-3afb0418f358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Textures">
+      <UniqueIdentifier>{f17345a5-6c4d-4509-8fc7-4c81ef00470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Renderer\Materials">
+      <UniqueIdentifier>{e8f78c3a-2b72-4409-a477-4c6e6b881343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
